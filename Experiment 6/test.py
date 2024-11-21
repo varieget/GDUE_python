@@ -7,8 +7,8 @@ modes = ['valid']
 data = np.random.randint(15, 20, size=300)
 data = np.random.normal(data)  # 白噪声（正态分布 均值为0,方差为1）
 
-# window = np.ones(3)/3
-window = lambda x: np.ones(x)/x
+# window = np.ones(3) / 3
+window = lambda x: np.ones(x) / x
 for size in [3, 7, 11]:
     for m in modes:
         # 当size取值较大时，滤波后的信号比较平滑，但是灵敏度差；相反size取值较小时，滤波平滑效果差，但灵敏度好。

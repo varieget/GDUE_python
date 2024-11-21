@@ -11,4 +11,3 @@ elif int(score) >= 25:
     print("C")
 else:
     print("D")
-

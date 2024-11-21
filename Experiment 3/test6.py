@@ -11,5 +11,4 @@ for i in range(100, 1000):
 
     if i == result:
         print(i)
-        break # 第一个
-
+        break  # 第一个
